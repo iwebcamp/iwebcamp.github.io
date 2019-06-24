@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="columns">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <div class="box-image big-box hide-sm"></div>
+            <div class="box-image small-box show-sm"></div>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-3 col-md-2 col-sm-1"></div>
+        <div class="col-6 col-md-8 col-sm-10">
+            <article>
+                <h1 id="article-title" class="text-break hide-sm"></h1>
+                <h2 id="article-title-sm" class="text-break show-sm"></h2>
+                <p id="article-check" class="text-break text-italic text-gray"></p>
+                <div class="chip large-chip hide-sm">
+                    <img id="article-image-author" class="avatar avatar-sm avatar-large">
+                    <span id="article-author-name"></span>
+                </div>
+                <a id="btn-link-profile" target="_blank" class="btn btn-sm hide-sm" ><i class="icon icon-link"></i> Visitar</a>
+                <button id="btn-bios-link-p" class="btn btn-sm btn-primary hide-sm d-invisible tooltip tooltip-bottom" data-tooltip="Visitar site recomendado pelo autor"><i class="icon icon-bookmark"></i> Ver site</button>
+                <div class="col-sm-12">
+                    <div class="chip large-chip show-sm">
+                        <img id="article-image-author-sm" class="avatar avatar-sm avatar-large">
+                        <span id="article-author-name-sm"></span>
+                    </div>
+                </div>
+                <a id="btn-link-profile-2" target="_blank" class="btn mt-2 col-12 show-sm"><i class="icon icon-link"></i> Visitar</a>
+                <div id="btn-bios-link-tr" class="d-invisible show-sm">
+                    <button class="btn mt-2 btn-primary col-12"><i class="icon icon-bookmark"></i> Ver site</button>
+                </div><br>
+                <span id="article-date" class="text-gray c-hand"></span>
+                <div class="divider"></div><br>
+                <p id="article-content" class="text-break"></p>
+                <!-- DISQUS CONFIGURATION -->
+                <div id="disqus_thread"></div><br><br><br>
+                <script>
+                    var disqus_config = function () {
+                        this.page.url = window.location.href;  // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = Date.now(); // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://bloggram.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <!-- ADDTHIS CONFIGURATION -->
+                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b566aec370f72e0"></script>
+            </article>
+        </div>
+        <div class="col-3 col-md-2 col-sm-1"></div>
+    </div>
+</div>
+

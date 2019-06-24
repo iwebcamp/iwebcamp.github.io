@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#eeeeee">
+    <title>I Web Camp | Converta postagens em artigos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css">
+    <link rel="stylesheet" href="stylesheets/spectre.min.css">
+    <link rel="stylesheet" href="stylesheets/spectre-exp.min.css">
+    <link rel="stylesheet" href="stylesheets/spectre-icons.min.css">
+    <link rel="stylesheet" href="stylesheets/video-js.min.css">
+    <link rel="stylesheet" href="stylesheets/custom.css">
+</head>
+<body>
+    
+    <header class="navbar bg-gray">
+        <section class="navbar-section">
+            <a href="?home" title="I Web Camp" class="navbar-brand web-camp-logo hide-sm">Web Camp</a>
+            <a href="?home" title="I Web Camp" class="navbar-brand web-camp-logo show-sm">Web Camp</a>
+        </section>
+        <section class="navbar-center">
+            <figure id="avatar-f-lg" class="avatar avatar-sm">
+                <img id="logo-gram">
+                <i class="avatar-presence online"></i>
+            </figure>
+            <a href="?blog" title="Artigos Blog" class="navbar-brand bloggram-logo text-dark hide-sm"></a>
+        </section>
+        <section class="navbar-section">
+            <div class="hide-sm"> 
+                <a class="btn btn-link m-1 text-dark" href="https://www.instagram.com/iwebcamp"><i class="fi fi-instagram"></i></a>
+                <a class="btn btn-link m-1 text-dark" href="https://facebook.com/"><i class="fi fi-facebook"></i></a>
+                <a class="btn btn-link m-1 text-dark" href="https://github.com/iwebcamp"><i class="fi fi-github"></i></a>
+            </div>
+            <a href="?blog" title="Artigos Blog" class="navbar-brand bloggram-logo text-dark show-sm"></a>
+            <div class="hide-sm hide-md hide-lg" id="section-action-user">
+                <div class="dropdown dropdown-right">
+                    <a class="btn btn-link dropdown-toggle text-dark" tabindex="0"><i class="icon icon-apps"></i></a>
+                    <ul class="menu text-left">
+                        <li class="divider" data-content="BLOG"></li>
+                        <li class="menu-item"><a href="?sharelinkcreate"><i class="icon icon-link"></i> Converter post</a></li>
+                        <li class="menu-item"><a href="?postcreate"><i class="icon icon-edit"></i> Criador de post</a></li>
+                        <li class="menu-item"><a href="?shortlinkcreate"><i class="icon icon-flag"></i> Encurtar link</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="navbar navbar-fixed bg-dark transparent-70-bg">
+        <section class="navbar-section">
+            <a href="?home" title="I Web Camp" class="navbar-brand text-light web-camp-logo hide-sm">Web Camp</a>
+            <a href="?home" title="I Web Camp" class="navbar-brand text-light  web-camp-logo show-sm">Web Camp</a>
+        </section>
+        <section class="navbar-center">
+            <figure id="avatar-f-sm" class="avatar avatar-sm">
+                <img id="logo-gram-sm">
+                <i class="avatar-presence online"></i>
+            </figure>
+            <a href="?blog" title="Artigos Blog" class="navbar-brand text-light bloggram-logo hide-sm"></a>
+        </section>
+        <section class="navbar-section">
+            <div class="hide-sm">
+                <a class="btn btn-link m-1 text-light" href="https://www.instagram.com/iwebcamp"><i class="fi fi-instagram"></i></a>
+                <a class="btn btn-link m-1 text-light" href="https://facebook.com/"><i class="fi fi-facebook"></i></a>
+                <a class="btn btn-link m-1 text-light" href="https://github.com/iwebcamp"><i class="fi fi-github"></i></a>
+            </div>
+            <a href="?blog" title="Artigos Blog" class="navbar-brand text-light bloggram-logo show-sm"></a>
+            <div class="hide-sm hide-md hide-lg" id="section-action-user-2">
+                <div class="dropdown dropdown-right">
+                    <a class="btn btn-link text-light dropdown-toggle" tabindex="1"><i class="icon icon-apps"></i></a>
+                    <ul class="menu text-left">
+                        <li class="divider" data-content="BLOG"></li>
+                        <li class="menu-item"><a href="?sharelinkcreate" class="text-dark"><i class="icon icon-link"></i> Converter post</a></li>
+                        <li class="menu-item"><a href="?postcreate" class="text-dark"><i class="icon icon-edit"></i> Criador de post</a></li>
+                        <li class="menu-item"><a href="?shortlinkcreate" class="text-dark"><i class="icon icon-flag"></i> Encurtar link</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <main>
+        <div id="body-content"></div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <section class="footer-content">
+                        <div class="container">
+                            <div class="columns">
+                                <div class="col-2 col-md-6 col-sm-12">
+                                    <ul>
+                                        <li><a class="text-dark" href="?sharelinkcreate">Converter post</a></li>
+                                        <li><a class="text-dark" href="?postcreate">Criador de post</a></li>
+                                        <li><a class="text-dark" href="?shortlinkcreate">Encurtar link</a></li>
+                                        <li><a class="text-dark" href="https://github.com/iwebcamp/">Repositório</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-2 col-md-6 col-sm-12">
+                                    <ul>
+                                        <li>Menu
+                                            <ul>
+                                                <li><a href="?home">Home</a></li>
+                                                <li><a href="?blog">Blog</a></li>
+                                                <li><a href="?sharelinkcreate">Converter post</a></li>
+                                                <li><a href="?postcreate">Criador de post</a></li>
+                                                <li><a href="?shortlinkcreate">Encurtar link</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-2 col-md-6 col-sm-12">
+                                    <ul>
+                                        <li>Destaques
+                                            <ul>
+                                                <li><a href="?article=Bym9V1jhf9V">“A 14-year-old...</a></li>
+                                                <li><a href="?article=ByTTOvZFeSR">The peak of...</a></li>
+                                                <li><a href="?article=ByBQPrclo-L">From protecting...</a></li>
+                                                <li><a href="?article=ByrDGUznxHK">According to Mission...</a></li>
+                                                <li><a href="?article=BxnWQjvF5nz">Biodiversity and Eco...</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-2 col-md-6 col-sm-12">
+                                    <ul>
+                                        <li>Receitas
+                                            <ul>
+                                                <li><a href="?article=BzBDDTynw4R">Enroladinho salsic...</a></li>
+                                                <li><a href="?article=By_U8s_ngDT">Esse é o b...</a></li>
+                                                <li><a href="?article=By7roRJnnLN">Pastel de feira</a></li>
+                                                <li><a href="?article=By5UtBhHEKF">Torta frita</a></li>
+                                                <li><a href="?article=By3mok-Hwco">Batatas hasselback</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-2 col-md-6 col-sm-12">
+                                    <ul>
+                                        <li>Inspiração
+                                            <ul>
+                                                <li><a href="?article=BzBCh03Af7S">Fresh Install of...</a></li>
+                                                <li><a href="?article=By41klUAPRo">It has been a wh...</a></li>
+                                                <li><a href="?article=By8BS_Cg36l">No nariz ele é...</a></li>
+                                                <li><a href="?article=Bxxlyzeidgc">All my life, m</a></li>
+                                                <li><a href="?article=Byx-AqPi0wM">If you ask m...</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-2 col-md-6 col-sm-12">
+                                    <ul>
+                                        <li>Social
+                                            <ul>
+                                                <li>
+                                                    <a href="https://www.instagram.com/iwebcamp/" class="mx-1 text-dark"><i class="fi fi-instagram fi-stack ellipse"></i></a>
+                                                    <a href="https://facebook.com/" class="mx-1 text-dark"><i class="fi fi-facebook fi-stack ellipse"></i></a>
+                                                    <a href="https://github.com/iwebcamp/" class="mx-1 text-dark"><i class="fi fi-github fi-stack ellipse"></i></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+        <section class="footer-copy">
+            <div class="container">
+                <div class="columns">
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        <p class="footer-item">© 2019 <a href="?home" title="I Web Camp">I Web Camp</a>, MIT License.</p>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+<script src="javascripts/jquery-3.4.1.js"></script>
+<script src="javascripts/article.js"></script>
+</body>
+</html>
+

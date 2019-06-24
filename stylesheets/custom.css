@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Pacifico&display=swap');
+
+#article-check {
+    font-size: 20px;
+}
+
+#article-title, #article-title-sm {
+    margin-top: 47px;
+}
+
+#article-date {
+    font-size: 14px;
+}
+
+#article-author-name {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.at-cv-footer {
+    display: none !important;
+}
+
+.shadow {
+    box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
+}
+
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+    z-index: 1000;
+}
+
+.navbar {
+    height: 47px;
+    padding-left: 8.33333333%;
+    padding-right: 8.33333333%;
+}
+
+.chip.large-chip {
+    height: 40px;
+    background-color: #fff;
+}
+
+.box-image {
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.box-image.small-box {
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.avatar.avatar-sm.avatar-large {
+    height: 40px;
+    width: 40px;
+}
+
+.empty.full-empty {
+    height: 100vh;
+}
+
+.navbar-brand.bloggram-logo {
+    font-family: 'Courgette', cursive;
+    font-size: 23px;
+    margin-left: 10px;
+}
+
+.bloggram-logo {
+    font-family: 'Courgette', cursive;
+    font-size: 100px;
+}
+
+.bloggram-logo.tiny {
+    font-size: 35px;
+}
+
+.navbar-brand.web-camp-logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+.bg-dark.transparent-70-bg {
+    background-color: #303742f3 !important;
+}
+
+.footer {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    background-color: rgba(180, 180, 180, 0.1);
+}
+
+.footer ul {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 0;
+}
+
+.footer ul li ul li {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer ul li ul li a {
+    color: #8a8a8a;
+}
+
+.footer .footer-copy {
+    background-color: rgba(180, 180, 180, 0.2);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer .footer-copy .footer-item {
+    margin: 0;
+    font-size: 14px;
+}
+
+.box-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 94px);
+}
+
+.card {
+    border: 0px;
+}
+
+.section-subtitle {
+    margin-top: 30px;
+    margin-bottom: 67px;
+}
+
+.section-subtitle h2 {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+

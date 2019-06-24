@@ -1,0 +1,138 @@
+<div class="container">
+    <!-- SHOW ONLY DESKTOP -->
+    <div class="columns bg-blog-land bg-secondary hide-sm hide-md">
+        <div class="col-1"></div>
+        <div class="col-10 text-center">
+            <br><br>
+            <h1 class="bloggram-logo">Blog</h1><br>
+            <div class="columns">
+                <div class="col-3"></div>
+                <div class="col-6 text-left">
+                    <ul class="step">
+                        <li class="step-item">
+                            <a class="tooltip" data-tooltip="Passo 1">Explore</a>
+                        </li>
+                        <li class="step-item">
+                            <a class="tooltip" data-tooltip="Passo 2">Separe</a>
+                        </li>
+                        <li class="step-item active">
+                            <a class="tooltip" data-tooltip="Passo 3">Copie o ID</a>
+                        </li>
+                        <li class="step-item">
+                            <a class="tooltip" data-tooltip="Passo 4">Cole o ID abaixo</a>
+                        </li>
+                    </ul>
+                    <div class="toast toast-error d-invisible" id="alert-empty-id">
+                        Por favor, informe o ID da publicação logo abaixo
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon addon-lg">https://www.instagram.com/p/</span>
+                        <input type="text" class="form-input input-lg" id="pub-id-check" placeholder="ID">
+                        <button id="generate-pub" class="btn btn-primary input-group-btn btn-lg">Ver publicação <i class="icon icon-forward mx-1"></i></button>
+                    </div><br>
+                    <p><i class="icon icon-sm icon-flag mx-2"></i>Não armazenamos nenhum conteúdo das publicações.<br><i class="icon icon-search mx-2"></i>Não indexamos as publicações.</p><br>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    <!-- SHOW ONLY MOBILE -->
+    <div class="columns">
+        <div class="col-12 show-sm bg-secondary text-center">
+            <br>
+            <h3 class="bloggram-logo" style="font-size: 60px; margin-bottom: 10px;">Blog</h3><br>
+            <div class="columns">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <ul class="step">
+                        <li class="step-item">
+                            <a class="tooltip" data-tooltip="Explore">1</a>
+                        </li>
+                        <li class="step-item">
+                            <a class="tooltip" data-tooltip="Separe">2</a>
+                        </li>
+                        <li class="step-item active">
+                            <a class="tooltip" data-tooltip="Copie o ID">3</a>
+                        </li>
+                        <li class="step-item">
+                            <a class="tooltip" data-tooltip="Cole o ID abaixo">4</a>
+                        </li>
+                    </ul>
+                    <div id="mobile-empty-link" class="toast toast-error d-invisible">Informe o link da publicação</div>
+                    <input id="mobile-pub-link-check" type="text" class="form-input" placeholder="Link da publicação"><br>
+                    <button id="mobile-generate-pub" class="btn btn-primary col-12">Ver publicação <i class="icon icon-forward mx-1"></i></button><br><br>
+                    <p class="text-left"><i class="icon icon-sm icon-flag mx-2"></i>Não armazenamos as publicações.<br><i class="icon icon-search mx-2"></i>Não indexamos.</p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="col-2 col-md-1"></div>
+        <div class="col-8 col-md-10">
+            <div class="section-subtitle text-center">
+                <h2>Veja como é simples usar</h2>
+                <span>Entenda como fazer com qualquer post.</span>
+            </div>
+            <video id="video-blog" poster="images/bg-video-blog.png" class="video-js vjs-16-9 s-rounded shadow" controls preload="auto" data-setup='{}'>
+                <source src="media/video.mp4" type="video/mp4">
+            </video><br><br>
+            <div class="columns">
+                <div class="col-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="card m-2 shadow">
+                        <div class="card-header">
+                            <div class="card-title h5"><i class="icon icon-flag mx-2"></i>Gratuito</div>
+                        </div>
+                        <div class="card-body text-break">Você não paga nada para utilizar a ferramenta.</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="card m-2 shadow">
+                        <div class="card-header">
+                            <div class="card-title h5"><i class="icon icon-menu mx-2"></i>Sem cadastro</div>
+                        </div>
+                        <div class="card-body text-break">Não precisa de cadastro, basta comapartilhar.</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="card m-2 shadow">
+                        <div class="card-header">
+                            <div class="card-title h5"><i class="icon icon-emoji mx-2"></i>Personalizado</div>
+                        </div>
+                        <div class="card-body text-break">Seu artigo totalmente personalizado.</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="card m-2 shadow">
+                        <div class="card-header">
+                            <div class="card-title h5"><i class="icon icon-share mx-2"></i>Compartilhável</div>
+                        </div>
+                        <div class="card-body text-break">Opções de compartilhamento e comentários sobre o post.</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="card m-2 shadow">
+                        <div class="card-header">
+                            <div class="card-title h5"><i class="icon icon-link mx-2"></i>Links</div>
+                        </div>
+                        <div class="card-body text-break">Detecta e ativa links que você coloca no post.</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="card m-2 shadow">
+                        <div class="card-header">
+                            <div class="card-title h5"><i class="icon icon-photo mx-2"></i>Amigável</div>
+                        </div>
+                        <div class="card-body text-break">Acessivel em dispositivos móveis e dispositivos mobile.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-2 col-md-1"></div>
+    </div><br><br>
+</div>
+
+<script src="javascripts/blog_landing.js"></script>
+<script src="javascripts/video.min.js"></script>
+
