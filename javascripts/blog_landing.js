@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var video = videojs($('#video-blog')[0]);
+    // var video = videojs($('#video-blog')[0]);
 
     var generate_url = function(id) {
         if (id == '') {
