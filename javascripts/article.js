@@ -3,7 +3,7 @@ var end_point_media = 'https://instagram.com/p/';
 var end_point_tags = 'https://www.instagram.com/explore/tags/';
 var end_point_profile = 'https://www.instagram.com/';
 var path_render = 'static/';
-var default_home = 'blog';
+var default_home = 'home';
 var uri = getUri();
 
 render(uri);
