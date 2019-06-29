@@ -190,6 +190,7 @@ function regularTitle(title) {
 
 function getUri() {
     let winuri = window.location.search;
+    winuri = winuri.substr(winuri.indexOf('&'), winuri.length);
     winuri = winuri.replace(/\?|\//g, '');
     winuri = winuri.split('=');
     console.log(winuri);
