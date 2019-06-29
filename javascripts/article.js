@@ -192,6 +192,7 @@ function getUri() {
     let winuri = window.location.search;
     let params = winuri.substr(winuri.indexOf('&'), winuri.length);
     winuri = winuri.replace(params, '');
+    console.log(winuri);
     winuri = winuri.replace(/\?|\//g, '');
     winuri = winuri.split('=');
     console.log(winuri);
